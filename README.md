@@ -1,8 +1,6 @@
-# craco-linaria
+# craco-linaria3
 
-[![Travis Build Status](https://travis-ci.com/jedmao/craco-linaria.svg?branch=master)](https://travis-ci.com/jedmao/craco-linaria)
-[![codecov](https://codecov.io/gh/jedmao/craco-linaria/branch/master/graph/badge.svg)](https://codecov.io/gh/jedmao/craco-linaria)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+craco-linaria is not support linaria3, So update some file.
 
 A [craco](https://www.npmjs.com/package/@craco/craco) plugin to use [Linaria][]
 zero-runtime CSS in JS library in a create react app.
@@ -12,17 +10,19 @@ zero-runtime CSS in JS library in a create react app.
 First, follow craco's
 [installation instructions](https://github.com/sharegate/craco/blob/master/packages/craco/README.md#installation).
 
-Then, install `craco-linaria` and [Linaria][]:
+Then, install `craco-linaria3` and [Linaria][]:
 
 ```bash
-$ npm install --save-dev craco-linaria linaria
+$ yarn add  @linaria/core @linaria/react
+and
+$ yarn add craco-linaria3 @linaria/babel @linaria/webpack4-loader -D
 ```
 
 ## Usage
 
 ```js
 /* craco.config.js */
-const CracoLinariaPlugin = require('craco-linaria')
+const CracoLinariaPlugin = require('craco-linaria3')
 
 module.exports = {
   plugins: [
@@ -48,3 +48,7 @@ to add that path to your [`.gitignore`](https://git-scm.com/docs/gitignore)
 file.
 
 [linaria]: https://linaria.now.sh/
+
+## Thanks
+
+[craco-linaria](https://github.com/jedmao/craco-linaria.git)
