@@ -15,7 +15,7 @@ Then, install `craco-linaria3` and [Linaria][]:
 ```bash
 $ yarn add  @linaria/core @linaria/react
 and
-$ yarn add craco-linaria3 @linaria/babel @linaria/webpack4-loader -D
+$ yarn add craco-linaria3 @linaria/babel @linaria/webpack-loader -D
 ```
 
 ## Usage
